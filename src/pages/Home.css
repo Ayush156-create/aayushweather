@@ -1,0 +1,23 @@
+.home-page {
+  min-height: calc(100vh - 80px);
+  padding: 2rem 0;
+}
+
+.home-page .container {
+  max-width: 800px;
+}
+
+.home-page .page-header {
+  margin-bottom: 3rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .home-page {
+    padding: 1rem 0;
+  }
+
+  .home-page .page-header {
+    margin-bottom: 2rem;
+  }
+}
